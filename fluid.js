@@ -1,3 +1,5 @@
+// Script to obtain values from Fluid's Liquidity Resolver Smart Contracts
+
 const { ethers } = require("ethers");
 
 // Step 1: Define the provider and contract

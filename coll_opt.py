@@ -1,3 +1,5 @@
+# Final Optimization Script which obtains params from the respective json files and performs the optimization algorithm to give the optimal result.
+
 from scipy.optimize import minimize
 import json
 

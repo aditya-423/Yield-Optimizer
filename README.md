@@ -1,9 +1,26 @@
-1. Used to Optimize your Yield between 3 protocols: Aave, Compound and Fluid.
+# **Yield Optimization Script**
 
-2. Automation Script is included in the final_copt.js file.
+## **Overview**
+This project automates the process of optimizing yield across **three protocols**:  
+1. **Aave**  
+2. **Compound**  
+3. **Fluid**  
 
-3. Running the automation script obtains values from the smart contracts of Aave (using collopt.mjs), Compound (using collopt.js) and Fluid (using fluid.js).
+The automation script retrieves data from the smart contracts of these protocols, processes the outputs, and computes the optimal yield strategy.  
+  
 
-4. The script then loads the outputs from the above executions into the respective params file (aave_params.json, comp_params.json and fluid_params.json)
+---
 
-5. Then, the python script (coll_opt.py) is executed to give the optimized result.
+## **Folder Structure**
+```plaintext
+.
+├── final_copt.js          # Main automation script
+├── collopt.mjs            # Retrieves data from Aave
+├── collopt.js             # Retrieves data from Compound
+├── fluid.js               # Retrieves data from Fluid
+├── coll_opt.py            # Python script for yield optimization
+├── aave_params.json       # Stores Aave protocol data
+├── comp_params.json       # Stores Compound protocol data
+├── fluid_params.json      # Stores Fluid protocol data
+└── README.md              # Project documentation
+

@@ -1,3 +1,5 @@
+// Final Automation Script which needs to be run to start the automation workflow. 
+
 const { exec } = require("child_process");
 const fs = require("fs");
 

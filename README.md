@@ -1,6 +1,6 @@
-# **Yield Optimization Script**
+## **Yield Optimization Script**
 
-## **Overview**
+### **Overview**
 This project automates the process of optimizing yield across **three protocols**:  
 1. **Aave**  
 2. **Compound**  
@@ -11,7 +11,7 @@ The automation script retrieves data from the smart contracts of these protocols
 
 ---
 
-## **Folder Structure**
+### **Folder Structure**
 ```plaintext
 .
 ├── final_copt.js          # Main automation script
@@ -24,3 +24,7 @@ The automation script retrieves data from the smart contracts of these protocols
 ├── fluid_params.json      # Stores Fluid protocol data
 └── README.md              # Project documentation
 
+### **Run the Automation Script**
+Execute the main automation script:
+```bash
+node final_copt.js

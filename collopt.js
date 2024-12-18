@@ -1,3 +1,5 @@
+//Script to obtain values from Compound's cUSDT Smart Contract
+
 const { ethers } = require("ethers");
 
 // Define constants for calculations

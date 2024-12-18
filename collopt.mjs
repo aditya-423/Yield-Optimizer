@@ -1,3 +1,5 @@
+// Script to obtain values from Aave's aUSDT Smart Contract
+
 import { ethers } from 'ethers';
 import {
   UiPoolDataProvider,

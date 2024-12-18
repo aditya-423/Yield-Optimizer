@@ -7,31 +7,15 @@ This project automates the process of optimizing yield across **three protocols*
 3. **Fluid**  
 
 The automation script retrieves data from the smart contracts of these protocols, processes the outputs, and computes the optimal yield strategy.  
-  
 
----
 
-### **Folder Structure**
-```plaintext
-.
-├── final_copt.js          # Main automation script
-├── collopt.mjs            # Retrieves data from Aave
-├── collopt.js             # Retrieves data from Compound
-├── fluid.js               # Retrieves data from Fluid
-├── coll_opt.py            # Python script for yield optimization
-├── aave_params.json       # Stores Aave protocol data
-├── comp_params.json       # Stores Compound protocol data
-├── fluid_params.json      # Stores Fluid protocol data
-└── README.md              # Project documentation
-
----
 
 ### **Run the Automation Script**
 Execute the main automation script:
 
 node final_copt.js
 
-####Flow:
+#### **Flow:**
 
 **Step 1:** The script executes collopt.mjs to fetch data from Aave.
 
@@ -72,27 +56,27 @@ The data is saved into the file: fluid_params.json.
 The Python script:
 
 **Reads data from the JSON files:**
-aave_params.json
-comp_params.json
-fluid_params.json
+- aave_params.json
+- comp_params.json
+- fluid_params.json
 Performs optimization calculations.
 
 **Outputs:**
 The script prints the following results:
 
-**Initial APR Values:**
-Initial Supply APR on Aave
-Initial Supply APR on Compound
-Initial Supply APR on Fluid
+- **Initial APR Values:**
+  - Initial Supply APR on Aave
+  - Initial Supply APR on Compound
+  - Initial Supply APR on Fluid
 
-**Optimal Deposits:**
-Deposit on Aave
-Deposit on Fluid
-Deposit on Compound
+- **Optimal Deposits:**
+  - Deposit on Aave
+  - Deposit on Fluid
+  - Deposit on Compound
 
-**Optimization Results:**
-Maximum Profit
-Final APR Values:
-Final Supply APR on Aave
-Final Supply APR on Fluid
-Final Supply APR on Compound
+- **Optimization Results:**
+  - Maximum Profit
+  - Final APR Values:
+  - Final Supply APR on Aave
+  - Final Supply APR on Fluid
+  - Final Supply APR on Compound

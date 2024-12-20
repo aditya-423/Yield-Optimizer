@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@aave/contract-helpers": "^1.30.5",
+    "@aave/math-utils": "^1.30.5",
+    "@bgd-labs/aave-address-book": "^4.6.0",
+    "aave": "^0.0.1-security",
+    "dayjs": "^1.11.13",
+    "ethers": "^5.7.2",
+    "graphql-request": "^7.1.2"
+  }
+}
